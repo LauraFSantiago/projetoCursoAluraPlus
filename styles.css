@@ -24,7 +24,7 @@ body {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
-    align-items: center;
+    align-items: center; /* responsavel por alinhar todos os elementos dentro do bloco */
     text-align: center;
 }
 
@@ -97,7 +97,7 @@ body {
 }
 
 .dispositivos__lista {
-    display: flex;
+    display: flex; /* deixa as imagens/itens da lista um do lado do outro*/
     justify-content: center;
     list-style-type: none;
     margin: 5em 0;
@@ -149,7 +149,7 @@ body {
     color: purple;
 }
 
-.container__botao:hover {
+.container__botao:hover { /* esse hover serve para acontecer algo quando é passado o mouse sobre o botão */
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
